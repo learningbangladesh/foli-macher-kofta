@@ -8,13 +8,12 @@ p{
 }
 
 .header-color{
-    color: royalblue;
+    color: rgb(231, 162, 33);
 }
 
 .flexible{
     display: flex;
     margin: 150px;
-    padding-left: 50px;
 }
 
 .about-sec{
@@ -60,25 +59,59 @@ text-align: center;
     width: 100%;
 }
 
-.followers{
-    display: flex;
-    padding: 50px;
-    width: 70%;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, .18);
-    border-radius: 30px;
-    margin: 0px 250px;
-    text-align: center;
-    
-}
-
 .center{
     text-align: center;
     padding: 0px 500px;
 }
 
+.youtube{
+text-align: center;
+ }
+
+ .followers{
+    display: flex;
+    padding: 50px;
+    width: 70%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .18);
+    border-radius: 30px;
+    margin: 200px 250px;
+    text-align: center;
+    
+}
+
 .stat{
-    padding: 40px;
-    width: 10%;
-    background: #FFFFFF;
-        margin: 0px 100px;
-    text-align: center;}
+ 
+    width: 33.33%;
+    text-align: center;
+}
+
+
+
+    .footer{
+        background-color: black;
+        color: rgb(226, 107, 28);
+        padding: 5px 40px 35px 40px;
+        font-size: 23px;
+        text-align: center;
+        
+    }
+
+    .footer-text{
+        line-height: 0.1;
+        color: cornsilk;
+    }
+
+
+
+    .fa {
+  padding: 10px;
+  font-size: 5px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
