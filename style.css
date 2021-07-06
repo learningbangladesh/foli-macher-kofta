@@ -1,6 +1,7 @@
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
+    color: rgb(80, 80, 80);
 }
 
 p{
@@ -29,8 +30,7 @@ p{
     text-decoration: none;
     padding: 20px 30px;
     color: cornsilk;
-    background-image: linear-gradient(#e28834,#c42525 );
-
+    background-image: linear-gradient(#faa454,#f09a1af1 );
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 100px;
     
@@ -76,6 +76,7 @@ text-align: center;
     border-radius: 30px;
     margin: 200px 250px;
     text-align: center;
+    line-height: 0.1;
     
 }
 
